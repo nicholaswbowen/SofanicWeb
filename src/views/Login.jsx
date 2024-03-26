@@ -20,7 +20,7 @@ const Login = () => {
             <CssBaseline />
             <div>
                 <Typography component="h1" variant="h5">
-                    StudyAssist
+                    Sofanic
                 </Typography>
                 <form onSubmit={onLogin}>
                     <TextField

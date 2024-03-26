@@ -79,7 +79,7 @@ function Root(props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <Typography variant="h6" sx={{ my: 2 }}>
-        StudyAssist
+        Sofanic
       </Typography>
       <Divider />
       <List>
@@ -114,7 +114,7 @@ function Root(props) {
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
           >
-            StudyAssist
+            Sofanic
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {loading ? <Loady /> : navItems.map((item) => (
